@@ -1,0 +1,17 @@
+App\Entity\Product:
+    exclusion_policy: ALL
+    properties:
+        id:
+            expose: true
+            type: integer
+        name:
+            expose: true
+            type: string
+        description:
+            expose: true
+            type: string
+        price:
+            expose: true
+            type: float
+
+
